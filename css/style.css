@@ -1,0 +1,49 @@
+/* ===  style.css  06/07/2016  seawuf  === */
+
+html, body {
+  color: #0a420a;
+  background-color: lightgreen;
+  font-size: 18px;
+  margin: 0 1%;
+  padding: 2%
+}
+header {
+  background-color: yellow;
+  border: 2px solid #000;
+  box-shadow: 10px 10px 5px #888888;
+  font-size: 1.5em;
+  margin: 0 2% 5%;
+  padding: 2% 2% 1%;
+  color: #000;
+}
+h1 {
+  color: #116e11;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 auto;
+}
+main {
+  font-size: 1.3em;
+}
+section#dup_checkbox, section#btn_verify  {
+  width: auto;
+  margin: 0 5%;
+}
+section#dup_checkbox label {
+  color: #f00;
+}
+span#form_update {
+  margin: 0 1%;
+  color: #808080;
+  font-size: .7em;
+}
+input{
+  border:1px solid #000;
+}
+input:focus{
+  background-color: #E6E6E6;
+}
+fieldset{
+  width: 30%;
+  margin: 0 5% 4%;
+}
